@@ -1,0 +1,41 @@
+html, body {
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.result, .scores, .winner {
+    font-family: "sans", sans-serif;
+    font-size: large;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+.box {
+    background-color: orange;
+    height: 300px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.buttons {
+    margin: 10px;
+    display: flex;
+    
+}
+button {
+    margin: 10px;
+    color: orange;
+    background-color: black;
+    border: 0;
+    height: 60px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+}
